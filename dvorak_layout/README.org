@@ -1,0 +1,15 @@
+#+TITLE: Readme
+
+* Layout
+[[http://www.keyboard-layout-editor.com/#/gists/5ec78301b894507d85d9fb2b5b04a7f4][layout]]
+
+* Layer
+1. Dvorak
+2. Qwerty
+3. Function
+4. PalmLeft
+5. PalmRight
+6. MagicL
+7. MagicR
+8. Backlit
+9. LED
