@@ -56,7 +56,27 @@ KEYMAPS(
 
    Key_Backspace,   Key_Enter,   Key_NoKey,   Key_NoKey,
    Key_NoKey
-  )
+  ),
+
+  // FUNCTION
+  [FUNCTION] = KEYMAP_STACKED
+  (
+   XXX, XXX, XXX, XXX, XXX, XXX, XXX,
+   XXX, XXX, XXX, XXX, XXX, XXX, XXX,
+   XXX, XXX, XXX, XXX, XXX, XXX,
+   XXX, XXX, XXX, XXX, XXX, XXX, XXX,
+
+   XXX, XXX, XXX, XXX,
+   XXX,
+
+   Key_VolumeUp,   XXX, XXX, XXX, XXX, XXX, XXX,
+   Key_VolumeDown, XXX, XXX, XXX, XXX, XXX, XXX,
+                   XXX, XXX, XXX, XXX, XXX, XXX,
+   Key_Mute,       XXX, XXX, XXX, XXX, XXX, XXX,
+
+   XXX, XXX, XXX, XXX,
+   XXX
+  ),
 )
 /* *INDENT-ON* */
 
