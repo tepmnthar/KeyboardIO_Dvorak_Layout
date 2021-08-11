@@ -65,20 +65,20 @@ KEYMAPS(
   // FUNCTION(FN)
   [FUNCTION] = KEYMAP_STACKED
   (
-   XXX, XXX, XXX, XXX, XXX, XXX, XXX,
-   XXX, XXX, XXX, XXX, XXX, XXX, XXX,
-   XXX, XXX, XXX, XXX, XXX, XXX,
-   XXX, XXX, XXX, XXX, XXX, XXX, XXX,
+   XXX,            Key_F1, Key_F2, Key_F3, Key_F4, Key_F5,  XXX,
+   XXX,            XXX,    XXX,    XXX,    XXX,    XXX,     XXX,
+   XXX,            XXX,    XXX,    XXX,    XXX,    XXX,
+   XXX,            XXX,    XXX,    XXX,    XXX,    XXX,     XXX,
 
-   XXX, XXX, XXX, XXX,
+   XXX,            XXX,    XXX,    XXX,
    XXX,
 
-   Key_VolumeUp,   XXX, XXX, XXX, XXX, XXX, XXX,
-   Key_VolumeDown, XXX, XXX, XXX, XXX, XXX, XXX,
-                   XXX, XXX, XXX, XXX, XXX, XXX,
-   Key_Mute,       XXX, XXX, XXX, XXX, XXX, XXX,
+   Key_VolumeUp,   Key_F6, Key_F7, Key_F8, Key_F9, Key_F10, Key_F11,
+   Key_VolumeDown, XXX,    XXX,    XXX,    XXX,    XXX,     Key_F12,
+   ,               XXX,    XXX,    XXX,    XXX,    XXX,     XXX,
+   Key_Mute,       XXX,    XXX,    XXX,    XXX,    XXX,     XXX,
 
-   XXX, XXX, XXX, XXX,
+   XXX,            XXX,    XXX,    XXX,
    XXX
   ),
 
