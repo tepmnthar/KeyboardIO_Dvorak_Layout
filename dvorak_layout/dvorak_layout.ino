@@ -15,10 +15,13 @@
  */
 
 #include "Kaleidoscope.h"
+#include <Kaleidoscope-MouseKeys.h>
+
 
 /* *INDENT-OFF* */
 KEYMAPS(
-  // DVORAK
+  // 以下是 base layer
+  // 1. DVORAK
   [DVORAK] = KEYMAP_STACKED
   (
    Key_Backtick,    Key_1,         Key_2,       Key_3,        Key_4, Key_5, Key_NoKey,
@@ -38,7 +41,7 @@ KEYMAPS(
    Key_NoKey
   ),
 
-  // QWERTY
+  // 2. QWERTY
   [QWERTY] = KEYMAP_STACKED
   (
    Key_Backtick,    Key_1,       Key_2,       Key_3,        Key_4,      Key_5,         Key_NoKey,
@@ -58,7 +61,8 @@ KEYMAPS(
    Key_NoKey
   ),
 
-  // FUNCTION
+  // 以下是 override layer
+  // FUNCTION(FN)
   [FUNCTION] = KEYMAP_STACKED
   (
    XXX, XXX, XXX, XXX, XXX, XXX, XXX,
@@ -77,6 +81,46 @@ KEYMAPS(
    XXX, XXX, XXX, XXX,
    XXX
   ),
+
+  // PALM LEFT(左手鼠标键右手数字键)
+  [PALM_LEFT] = KEYMAP_STACKED
+  (
+   XXX, XXX,           XXX,         XXX,           XXX,           XXX,                XXX,
+   XXX, Key_mouseBtnL, Key_mouseUp, Key_mouseBtnR, XXX,           XXX,                XXX,
+   XXX, Key_mouseL,    Key_mouseDn, Key_mouseR,    XXX,           XXX,
+   XXX, XXX,           XXX,         XXX,           XXX,           XXX,                XXX,
+
+   XXX, XXX,           XXX,         XXX,
+   XXX,
+
+   XXX, XXX,           Key_Keypad7, Key_Keypad8,   Key_Keypad9,   Key_KeypadDivide,   Key_KeypadEnter,
+   XXX, XXX,           Key_Keypad4, Key_Keypad5,   Key_Keypad6,   Key_KeypadMultiply, Key_KeypadEnter,
+        XXX,           Key_Keypad1, Key_Keypad2,   Key_Keypad3,   Key_KeypadSubtract, Key_KeypadEnter,
+   XXX, XXX,           Key_Keypad0, XXX,           Key_KeypadDot, Key_KeypadAdd,      Key_KeypadEnter,
+
+   XXX, XXX,           XXX,         XXX,
+   XXX
+  ),
+
+  // PALM RIGHT(左手方向键右手数字键)
+  [PALM_LEFT] = KEYMAP_STACKED
+  (
+   XXX, XXX,           XXX,           XXX,            XXX,           XXX,                XXX,
+   XXX, XXX,           Key_UpArrow,   XXX,            XXX,           XXX,                XXX,
+   XXX, Key_LeftArrow, Key_DownArrow, Key_RightArrow, XXX,           XXX,
+   XXX, XXX,           XXX,           XXX,            XXX,           XXX,                XXX,
+
+   XXX, XXX,           XXX,           XXX,
+   XXX,
+
+   XXX, XXX,           Key_Keypad7,   Key_Keypad8,    Key_Keypad9,   Key_KeypadDivide,   Key_KeypadEnter,
+   XXX, XXX,           Key_Keypad4,   Key_Keypad5,    Key_Keypad6,   Key_KeypadMultiply, Key_KeypadEnter,
+        XXX,           Key_Keypad1,   Key_Keypad2,    Key_Keypad3,   Key_KeypadSubtract, Key_KeypadEnter,
+   XXX, XXX,           Key_Keypad0,   XXX,            Key_KeypadDot, Key_KeypadAdd,      Key_KeypadEnter,
+
+   XXX, XXX,           XXX,           XXX,
+   XXX
+  )
 )
 /* *INDENT-ON* */
 
